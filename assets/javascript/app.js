@@ -1,6 +1,16 @@
 $(document).ready(function(){
     //global variables
     //Scroll magic controller here
+    //functions for materialize
+    $(".dropdown-trigger").dropdown({
+        hover: true,
+        belowOrigin: true,
+        alignment: 'left',
+        coverTrigger: false,
+        inDuration: 200,
+        outDuration: 400,
+        closeOnClick: false
+    });
     //functions for populating content
     function populateIntro(){
         var introTitle = $("<p><span class='red-text'>Hi</span>!</p>");
