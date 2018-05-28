@@ -12,10 +12,13 @@
 .content{
     background-color: rgba(255, 255, 255,.5);
 }
+#topTitle{
+    font-size: 4vh;
+}
 .dropdownItems{
-    background-color: #e53935;
-    color: white;
+    background-color: white ;
+    
 }
 .dropdownItems:hover{
-    background-color: #b71c1c;
+    background-color: rgb(205, 205, 205);
 }
