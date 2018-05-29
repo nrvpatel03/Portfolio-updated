@@ -9,7 +9,7 @@ body{
     background-repeat: no-repeat;
     background-position: center bottom;
     background-color: rgb(205, 205, 205);
-    max-width: 100%;
+    width: 100%;
     min-height: 100vh;
     height: 100%;
 }
@@ -31,8 +31,8 @@ body{
 .dropdownItems:hover{
     background-color: rgb(205, 205, 205);
 }
-
-.head-text{
+/* Intro styling */
+#intro-headText{
     margin-top: 10%;
     padding-top: 5%;
     font-size: 10em;
@@ -40,5 +40,53 @@ body{
 #intro-text{
     font-size: 2em;
     line-height: 1.5;
+    font-weight: bold;
     padding-bottom: 5%;
+}
+/* About styling */
+#about-headText{
+    margin-top: 10%;
+    padding-top: 5%;
+    font-size: 5em;
+}
+#about-text{
+    font-size: 2em;
+    line-height: 1.25;
+    padding-bottom: 5%;
+    font-weight: 500;
+}
+/* responsive text sizes */
+@media only screen and (max-width: 570px){
+    #about-text{
+        font-size: 1.55em;
+    }
+    #about-headText{
+        font-size: 4.5em;
+    }
+    #topTitle{
+        font-size: 1.5em;
+    }
+    #intro-headText{
+        font-size: 8.5em;
+    }
+    #intro-text{
+        font-size: 1.65em;
+    }
+}
+@media only screen and (max-width: 350px){
+    #topTitle{
+        font-size: 1.5em;
+    }
+    #intro-headText{
+        font-size: 8em;
+    }
+    #intro-text{
+        font-size: 1.5em;
+    }
+    #about-text{
+        font-size: 1.35em;
+    }
+    #about-headText{
+        font-size: 4em;
+    }
 }
