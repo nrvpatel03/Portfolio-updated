@@ -23,6 +23,7 @@ body{
 }
 #topTitle{
     font-size: 2em;
+    cursor: pointer;
 }
 .dropdownItems{
     background-color: white ;
