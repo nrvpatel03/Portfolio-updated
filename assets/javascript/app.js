@@ -54,23 +54,21 @@ $(document).ready(function () {
             });
         }
     }
-    var currentValue = 0;
+    var currentValue = 1;
     var intro = populateIntro();
     var about = populateAbout();
     var portfolio = populatePortfolio();
     var contact = populateContact();
     $("#attachDiv").append(intro).append(about).append(portfolio).append(contact);
     //when user first loads page, only show intro
-    currentValue = 1;
+    
     about.hide();
     portfolio.hide();
     contact.hide();
-    console.log(typeof($("#homePage").attr("value")));
     //click functions
     $("#homePage").click(function(){
         changeDiv(currentValue,1,intro);
         currentValue = 1;
-        console.log(currentValue);
     })
     $("#topTitle").click(function(){
         $("#homePage").trigger('click');
@@ -78,16 +76,13 @@ $(document).ready(function () {
     $("#aboutPage").click(function(){
         changeDiv(currentValue,2,about);
         currentValue = 2;
-        console.log(currentValue);
     })
     $("#portfolioPage").click(function(){
         changeDiv(currentValue,3,portfolio);
         currentValue = 3;
-        console.log(currentValue);
     })
     $("#contactPage").click(function(){
         changeDiv(currentValue,4,contact);
         currentValue = 4;
-        console.log(currentValue);
     })
 })
