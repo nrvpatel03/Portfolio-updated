@@ -17,8 +17,8 @@ body{
     background-color: rgba(255, 255, 255,.8);
     height: fit-content;
     width: fit-content;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
     margin: 0 auto;
 }
 #topTitle{
@@ -56,8 +56,40 @@ body{
     padding-bottom: 5%;
     font-weight: 500;
 }
+/* contact styling */
+#contact-headText{
+    margin-top: 10%;
+    padding-top: 5%;
+    font-size: 5em;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.contact-text{
+    font-size: 2em;
+    line-height: 1.25;
+    font-weight: 500;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.ourImage{
+    margin-top: 5%;
+    width: 10em;
+    height: 10em;
+    padding-bottom: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+    cursor: pointer;
+}
+
 /* responsive text sizes */
 @media only screen and (max-width: 570px){
+    #contact-headText{
+        font-size: 4.5em;
+    }
+    .contact-text{
+        font-size: 1.55em;
+    }
     #about-text{
         font-size: 1.55em;
     }
@@ -73,8 +105,19 @@ body{
     #intro-text{
         font-size: 1.65em;
     }
+    .ourImage{
+        width: 8.5em;
+        height: 8.5em;
+    }
+    
 }
 @media only screen and (max-width: 350px){
+    #contact-headText{
+        font-size: 4em;
+    }
+    .contact-text{
+        font-size: 1.40em;
+    }
     #topTitle{
         font-size: 1.5em;
     }
@@ -89,5 +132,9 @@ body{
     }
     #about-headText{
         font-size: 4em;
+    }
+    .ourImage{
+        width: 6.5em;
+        height: 6.5em;
     }
 }
