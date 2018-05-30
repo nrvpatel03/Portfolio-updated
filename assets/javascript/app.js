@@ -41,9 +41,15 @@ $(document).ready(function () {
 
     function populatePortfolio() {
         var portfolioTitle = $("<p id='portfolio-headText' class='red-text'>portfolio</p>");
+        //make cards from materialize card
+        var projcard1 = $("<div class='col s12 m4'><div class='card'><div class='card-image'><img src='assets/images/githublogo.jpg'><span class='card-title red-text'>Card Title</span></div><div class='card-content'><p>I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.</p></div><div class='card-action'><a href='#'>This is a link</a></div></div></div>");
+        var projcard2 = $("<div class='col s12 m4'><div class='card'><div class='card-image'><img src='assets/images/githublogo.jpg'><span class='card-title red-text'>Card Title</span></div><div class='card-content'><p>I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.</p></div><div class='card-action'><a href='#'>This is a link</a></div></div></div>");
+        var projcard3 = $("<div class='col s12 m4'><div class='card'><div class='card-image'><img src='assets/images/githublogo.jpg'><span class='card-title red-text'>Card Title</span></div><div class='card-content'><p>I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.</p></div><div class='card-action'><a href='#'>This is a link</a></div></div></div>");
+        var cardrow = $("<div class='row'></div>");
+        cardrow.append(projcard1).append(projcard2).append(projcard3);
         var portfolioDiv = $("<div class='content'></div>");
         portfolioDiv.attr("value",3);
-        portfolioDiv.append(portfolioTitle);
+        portfolioDiv.append(portfolioTitle).append(cardrow);
         return portfolioDiv;
     }
 
