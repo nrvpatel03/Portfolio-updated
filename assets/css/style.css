@@ -91,15 +91,24 @@ body{
 .card{
     height: 90%;
     width: 90%;
-    margin: 0 auto;
+    margin: 3% auto;
 }
 .card-title{
     margin-left: 2%;
     border: none;
     border-radius: 10px;
 }
+.row .col{
+    padding: 0;
+}
+
+
+
 /* responsive text sizes */
 @media only screen and (max-width: 570px){
+    #portfolio-headText{
+        font-size: 4.5em;
+    }
     #contact-headText{
         font-size: 4.5em;
     }
@@ -128,6 +137,9 @@ body{
     
 }
 @media only screen and (max-width: 350px){
+    #portfolio-headText{
+        font-size: 4em;
+    }
     #contact-headText{
         font-size: 4em;
     }
