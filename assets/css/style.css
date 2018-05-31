@@ -34,7 +34,7 @@ body{
 }
 /* Intro styling */
 #intro-headText{
-    margin-top: 10%;
+    margin-top: 20px;
     padding-top: 5%;
     font-size: 10em;
 }
@@ -46,7 +46,7 @@ body{
 }
 /* About styling */
 #about-headText{
-    margin-top: 10%;
+    margin-top: 20px;
     padding-top: 5%;
     font-size: 5em;
 }
@@ -58,7 +58,7 @@ body{
 }
 /* contact styling */
 #contact-headText{
-    margin-top: 10%;
+    margin-top: 20px;
     padding-top: 5%;
     font-size: 5em;
     padding-bottom: 2%;
@@ -83,7 +83,7 @@ body{
 }
 /* portfolio styling fix cards, for media queries */
 #portfolio-headText{
-    margin-top: 10%;
+    margin-top: 20px;
     padding-top: 5%;
     font-size: 5em;
     padding-bottom: 2%;
