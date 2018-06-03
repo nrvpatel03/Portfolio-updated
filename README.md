@@ -1,4 +1,9 @@
 # Portfolio-updated
-An updated personal portfolio page
+This is an updated portfolio page for Nirav Patel.
+Click the menu icon to navigate through the website.
 
-https://nrvpatel03.github.io/Portfolio-updated
+URL: https://nrvpatel03.github.io/Portfolio-updated
+
+Made with:
+Materialize:
+https://materializecss.com/getting-started.html
