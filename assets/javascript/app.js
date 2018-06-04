@@ -28,7 +28,7 @@ $(document).ready(function () {
     function populateContact() {
         var contactTitle = $("<p id='contact-headText' class='red-text'>Contact</p>");
         var contactContent1 = $("<p class='contact-text' class='left-align'>Social Media: </p>");
-        var contactContent2 = $("<p class='contact-text' class='left-align' style='padding-bottom: 5%'>Email: <span class='red-text'>nrvpatel03@gmail.com</span></p>")
+        var contactContent2 = $("<p class='contact-text' class='left-align' style='padding-bottom: 5%'>Email: <span class='red-text'><a href='mailto:nrvpatel03@gmail.com'>nrvpatel03@gmail.com</a></span></p>")
         var imgrow = $("<div class='row'></div>");
         var githubImgDiv=$("<div class='col s6'><a href='https://github.com/nrvpatel03' target='_blank'><img class='responsive-img ourImage' src='assets/images/githublogo.jpg'></a></div>");
         var linkedinImgDiv=$("<div class='col s6'><a href='https://www.linkedin.com/in/nirav-patel-36b407a4' target='_blank'><img class='responsive-img ourImage' src='assets/images/linkedinlogo.jpg'></a></div>");
