@@ -84,16 +84,18 @@ body{
 /* portfolio styling fix cards, for media queries */
 #portfolio-headText{
     margin-top: 20px;
-    padding-top: 2.8%;
+    padding-top: 3%;
     font-size: 5em;
 }
 .card{
     width: 90%;
     margin: 3% auto;
+    border-radius: 50px;
 }
-.card-title{
-    border: none;
-    border-radius: 10px;
+
+.card-image{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 .row .col{
     padding: 0;
@@ -106,6 +108,7 @@ body{
 .card-textcontent{
     font-size: 1.18em;
 }
+
 
 /* responsive text sizes */
 @media only screen and (max-width: 570px){
