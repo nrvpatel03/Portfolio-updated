@@ -92,6 +92,9 @@ body{
     margin: 3% auto;
     border-radius: 50px;
 }
+.card .card-content{
+    padding: 15px;
+}
 
 .card-image{
     border-top-left-radius: 50px;
